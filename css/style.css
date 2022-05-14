@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+header {
+    border-bottom: 1px solid rgb(30, 30, 30);
+}
+
+/* Header end */
+
+#first {
+    background-image: url(../img/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.balandlik {
+    height: 800px;
+}
+
+.first-ul {
+    display: flex;
+}
+
+.first-ul li {
+    list-style-type: none;
+    margin: 20px;
+}
+
+.mask {
+    background-color: rgba(175, 175, 175, 0.552);
+}
+
+#second {
+    margin: 40px 0;
+}
+
+.line {
+    width: 100%;
+    height: 6px;
+    background-color: rgb(189, 189, 189);
+    margin-top: 10px;
+}
+
+.p90 {
+    width: 90%;
+    height: 100%;
+    background-color: rgb(102, 142, 102);
+}
+
+.p90_2 {
+    margin-left: 90%;
+    margin-top: 10px;
+}
+
+.design .p90 {
+    width: 70%;
+}
+
+.design .p90_2 {
+    margin-left: 70%;
+}
+
+.brand .p90 {
+    width: 60%;
+}
+
+.brand .p90_2 {
+    margin-left: 60%;
+}
+
+.graphic .p90 {
+    width: 80%;
+}
+
+.graphic .p90_2 {
+    margin-left: 80%;
+}
+
+.bio h1 {
+    margin-bottom: 15px;
+    font-size: 34px;
+}
+
+.bio h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.bio p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bio ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+.bio ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.bio ul li a {
+    color: black;
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#third {
+    background-color: #F8F9FA;
+    padding: 50px 0;
+}
+
+.boxthird h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.boxthird h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.portfolio img {
+    width: 100%;
+}
+
+.fouth-title h1 {
+    margin-bottom: 15px;
+}
+
+.fouth-title p {
+    margin-bottom: 15px;
+    line-height: 28px;
+}
+
+#fourth {
+    padding: 50px 0;
+}
+
+#fifth {
+    background-color: #c0c0c0;
+    padding: 50px 0;
+}
+
+.boxfifth {
+    background-color: white;
+    padding: 10px;
+}
+
+.boxfifthicon {
+    display: inline-block;
+    font-size: 34px;
+    background-color: rgb(172, 172, 172);
+    border-radius: 50%;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+
+.boxfifth h1 {
+    margin-bottom: 10px;
+}
+
+.boxfifth p {
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+.sixthteam img {
+    width: 100%;
+}
+
+.team .boxfifth {
+    background-color: #c0c0c0;
+    padding: 0;
+}
+
+.sixthtitle {
+    padding: 10px;
+}
+
+.sixthtitle ul {
+    display: flex;
+    justify-content: center;
+}
+
+.sixthtitle ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.sixthtitle ul li a {
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 6px;
+    font-size: 18px;
+}
+
+#sixth {
+    padding: 50px 0;
+}
+
+#seventh {
+    background-color: #e7e7e7;
+    padding: 50px 0;
+}
+
+.seventh {
+    position: relative;
+    padding: 30px 0;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.seventh button {
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.line1 {
+    width: 70%;
+    height: .8px;
+    background-color: #c0c0c0;
+    margin: 20px auto;
+}
+
+.basic {
+    font-size: 45px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.sup span {
+    font-size: 40px;
+}
+
+.seventicon {
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: inline-block;
+    padding: 10px;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
